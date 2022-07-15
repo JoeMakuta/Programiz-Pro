@@ -1,0 +1,236 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
+
+body {
+   font-family: 'Raleway', sans-serif;
+   width: 100%;
+   height: fit-content;
+   margin: auto;
+}
+
+/* General styles */
+
+a,
+button {
+   cursor: pointer;
+}
+
+a {
+   text-decoration: none;
+}
+
+button {
+   background-color: rgb(115, 96, 201);
+   color: white;
+   border: none;
+   border-radius: 3px;
+   font-family: 'Raleway', sans-serif;
+}
+
+button:active {
+   background-color: rgb(101, 101, 101);
+}
+
+/* header Style */
+
+#header-bar {
+   display: flex;
+   height: 40px;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+#header-bar>div:first-child {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 60%;
+}
+
+#header-bar>div>a {
+   color: rgb(43, 37, 71);
+}
+
+#header-bar>div:nth-child(2) {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 18%;
+}
+
+#header-bar>div:nth-child(2)>button {
+   width: 100px;
+   height: 40px;
+}
+
+#header-bar>div:nth-child(1)>input {
+   box-sizing: border-box;
+   height: 40px;
+   width: 250px;
+   padding-left: 30px;
+   border: 1px solid rgb(135, 135, 135);
+   border-radius: 5px;
+}
+
+
+/* main Container design  */
+
+#mainContainer {
+   width: 80%;
+   height: fit-content;
+   margin: auto;
+}
+
+/* Subcontainer1 styles  */
+
+#subContainer1 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+#subContainer1>div:first-child {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   width: 50%;
+
+}
+
+#subContainer1>div:first-child>button {
+   width: 300px;
+   height: 70px;
+   font-weight: bold;
+   font-size: 25px;
+}
+
+#subContainer1>div:first-child>h1 {
+   font-size: 35px;
+   font-weight: 600;
+   position: relative;
+   top: -30px;
+}
+
+#subContainer1>div:nth-child(3) {
+   margin-left: 50px;
+}
+
+/* subcontainer2 style */
+
+.mainContainer1 {
+   display: grid;
+   grid-template-columns: 40% 1fr;
+   width: 100%;
+   height: 30rem;
+   margin: auto;
+   margin-top: 7%;
+   margin-bottom: 7%;
+   border-radius: 50px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(179, 179, 184);
+   transition: 1s box-shadow;
+}
+
+.mainContainer1:hover {
+   box-shadow: 8px 8px 100px rgb(189, 189, 189);
+}
+
+.div1 {
+   background-color: rgb(74, 78, 123);
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 30px;
+   color: white;
+}
+
+#div2 {
+   padding-left: 40px;
+   padding-right: 40px;
+   background: url("try-out-arrow.svg");
+   background-repeat: no-repeat;
+   background-position: 20px;
+
+}
+
+#div2>p {
+   margin-top: -20px;
+}
+
+#codeContainer {
+   width: 100%;
+   height: 50px;
+   background-color: black;
+
+}
+
+#codeContainer>p {
+   font-family: 'Courier New', Courier, monospace;
+   color: chartreuse;
+   padding: 10px;
+   margin: 0px;
+}
+
+#codeContainer>p>span {
+   color: white;
+}
+
+#checkingQuestion {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 50% 50%;
+   grid-gap: 10px;
+   margin-top: 100px;
+}
+
+#checkingQuestion>div {
+   font-family: 'Courier New', Courier, monospace;
+   box-sizing: border-box;
+   border: 1px solid rgb(182, 182, 182);
+   background-color: white;
+   width: 100%;
+   height: 50px;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 1px 1px 100px rgb(171, 171, 171);
+}
+
+
+#div2>button {
+   margin-top: 40px;
+   margin-left: 60%;
+   width: 200px;
+   height: 40px;
+}
+
+/* subContainer 3 style */
+
+#subContainer2 {
+   width: 100%;
+   height: fit-content;
+   padding-top: 50px;
+   background-color: rgb(245, 226, 202);
+   text-align: center;
+}
+
+#subContainer2>div:first-child {
+   width: 60%;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#subContainer2>div:first-child>div {
+   width: 20%;
+   height: 100px;
+   background-color: white;
+}
